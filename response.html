@@ -57,7 +57,18 @@
 
         @media only screen and (max-width: 600px) {
             .search-container {
-                min-width: 100px;
+                position: fixed;
+                top: 0;
+                border-radius: 0;
+                min-width: 100vw;
+            }
+
+            .card {
+                width: 90vw;
+            }
+
+            .card-text {
+                display: none;
             }
 
             .container {
@@ -114,7 +125,26 @@
                 </div>
             </div>
         </div>
-        <a href="index.html" class="p-2 badge badge-dark"><i class="bi bi-arrow-left-circle-fill mr-1"></i>Voltar</a>
+
+        <nav>
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="response2.html">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="response3.html">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="response2.html">Próximo</a>
+                </li>
+            </ul>
+        </nav>
     </main>
 
     <footer class="bg-white py-3 fixed-bottom">
