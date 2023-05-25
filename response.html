@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalisting | Resultado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .search-container {
+            min-width: 530px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-container h1 {
+            color: #000;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            border: none;
+            background-color: #f5f5f5;
+            color: #000;
+            box-shadow: none;
+        }
+
+        .btn-primary {
+            background-color: #000;
+            border-color: #000;
+        }
+
+        .btn-primary:hover {
+            background-color: #333;
+            border-color: #333;
+        }
+
+        .badge {
+            font-size: 16px;
+        }
+
+        .badge-dark {
+            background-color: #000;
+            border-color: #000;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .search-container {
+                min-width: 100px;
+            }
+
+            .container {
+                margin-top: 70px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="d-flex flex-column justify-content-center align-items-center">
+        <div class="search-container fixed-top">
+            <h1 class="text-center text-capitalize"><span class="font-weight-bold">Minima</span><span
+                    class="font-italic">listing</span></h1>
+            <form class="form-inline justify-content-center">
+                <div class="form-group">
+                    <input type="text" class="form-control pr-5" placeholder="Digite sua pesquisa">
+                </div>
+                <a href="response.html" class="btn btn-primary ml-2">Buscar</a>
+            </form>
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                <a class="mx-2 text-dark" href="#"><i class="bi bi-image mr-1"></i>Imagens</a>
+                <a class="mx-2 text-dark" href="#"><i class="bi bi-camera-video mr-1"></i>Vídeos</a>
+                <a class="mx-2 text-dark" href="#"><i class="bi bi-three-dots-vertical mr-1"></i>Outros</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Título do Resultado 1</h5>
+                    <p class="card-text">Descrição do resultado 1. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                    </p>
+                    <a href="#" class="card-link">Link do Resultado 1</a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Título do Resultado 2</h5>
+                    <p class="card-text">Descrição do resultado 2. Ut fringilla risus quis ante sodales, vel scelerisque
+                        elit consequat.</p>
+                    <a href="#" class="card-link">Link do Resultado 2</a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Título do Resultado 3</h5>
+                    <p class="card-text">Descrição do resultado 3. Integer auctor est vel sapien tincidunt, ut efficitur
+                        felis ultricies.</p>
+                    <a href="#" class="card-link">Link do Resultado 3</a>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="p-2 badge badge-dark"><i class="bi bi-arrow-left-circle-fill mr-1"></i>Voltar</a>
+    </main>
+
+    <footer class="bg-white py-3 fixed-bottom">
+        <div class="text-center">
+            <span>
+                <a href="https://github.com/hananitallyson" target="_blank" class="text-decoration-none text-dark"><i
+                        class="bi bi-github pr-1"></i>Github</a>
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
